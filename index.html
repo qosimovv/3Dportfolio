@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qosimov Sardorbek — Portfolio</title>
+<meta name="description" content="Qosimov Sardorbek — Statistics Student at TSUE. Data analysis, programming and digital innovation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NOISE / GRAIN OVERLAY ===== -->
+<div class="grain"></div>
+
+<!-- ===== CURSOR DOT ===== -->
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-mark">QS<span class="nav-dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#about" data-label="01">About</a>
+      <a href="#projects" data-label="02">Projects</a>
+      <a href="#stack" data-label="03">Stack</a>
+      <a href="#certificates" data-label="04">Certificates</a>
+      <a href="#contact" data-label="05">Contact</a>
+    </nav>
+    <a href="https://qosimovv.uz/CV.png" target="_blank" class="nav-cv">Download CV</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#stack">Stack</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <canvas id="webgl"></canvas>
+  <div class="hero-vignette"></div>
+
+  <div class="hero-content">
+    <p class="eyebrow"><span class="eyebrow-dot"></span> Available for opportunities — Bukhara, Uzbekistan</p>
+    <h1 class="hero-title">
+      <span class="hero-line">Turning raw</span>
+      <span class="hero-line"><em>numbers</em> into</span>
+      <span class="hero-line">real decisions.</span>
+    </h1>
+    <p class="hero-sub">Qosimov Sardorbek — Statistics student at TSUE, building at the
+      intersection of data analysis, software and the digital economy.</p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary"><span>View Projects</span></a>
+      <a href="#contact" class="btn btn-ghost"><span>Get in touch</span></a>
+    </div>
+  </div>
+
+  <div class="hero-metrics">
+    <div class="metric">
+      <span class="metric-num" data-count="2">0</span>
+      <span class="metric-label">Active Bots Live</span>
+    </div>
+    <div class="metric">
+      <span class="metric-num" data-count="2">0</span>
+      <span class="metric-label">Certificates</span>
+    </div>
+    <div class="metric">
+      <span class="metric-num" data-count="7">0</span>
+      <span class="metric-label">Core Skills</span>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>Scroll</span>
+    <div class="scroll-line"><div class="scroll-line-fill"></div></div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE STRIP ===== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>DATA ANALYSIS</span><span>•</span><span>TELEGRAM BOTS</span><span>•</span>
+    <span>PYTHON</span><span>•</span><span>STATISTICS</span><span>•</span>
+    <span>FINTECH</span><span>•</span><span>DIGITAL ECONOMY</span><span>•</span>
+    <span>DATA ANALYSIS</span><span>•</span><span>TELEGRAM BOTS</span><span>•</span>
+    <span>PYTHON</span><span>•</span><span>STATISTICS</span><span>•</span>
+    <span>FINTECH</span><span>•</span><span>DIGITAL ECONOMY</span><span>•</span>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="section-head">
+    <p class="section-eyebrow">— 01 / About</p>
+    <h2 class="section-title">Get to know me</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-portrait">
+      <div class="portrait-frame">
+        <img src="https://qosimovv.uz/profile.png" alt="Qosimov Sardorbek" loading="lazy">
+        <div class="portrait-grid-overlay"></div>
+      </div>
+      <div class="portrait-tag">
+        <span class="tag-dot"></span> G'ijduvon, Bukhara
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <h3 class="about-name">Qosimov Sardorbek</h3>
+      <p class="about-role">Statistics Student at <a href="https://www.google.com/maps/search/Toshkent+davlat+iqtisodiyot+universiteti/" target="_blank">TSUE</a></p>
+
+      <p class="about-text">
+        Statistics student at Tashkent State University of Economics, specializing in
+        <strong>Digital Economy and Information Technologies</strong>. I'm drawn to the
+        point where statistical thinking meets software — where a dataset stops being
+        a table and starts being a decision.
+      </p>
+      <p class="about-text">
+        Right now I'm sharpening my analytical and technical edges while exploring
+        data analytics, fintech and software development as the places I want to build
+        a career.
+      </p>
+
+      <div class="about-stats">
+        <div class="about-stat">
+          <span class="about-stat-num">2026</span>
+          <span class="about-stat-label">Started at TSUE</span>
+        </div>
+        <div class="about-stat">
+          <span class="about-stat-num">2024</span>
+          <span class="about-stat-label">First portfolio shipped</span>
+        </div>
+        <div class="about-stat">
+          <span class="about-stat-num">∞</span>
+          <span class="about-stat-label">Curiosity for data</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="timeline" id="timeline">
+    <p class="timeline-label">My Journey</p>
+    <div class="timeline-track">
+
+      <div class="timeline-item">
+        <div class="timeline-year">2026 —</div>
+        <div class="timeline-body">
+          <span class="timeline-status">Future Goal</span>
+          <h4>AI &amp; FinTech Engineer</h4>
+          <p>Merging artificial intelligence and financial technologies to build the future of the digital economy.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2025</div>
+        <div class="timeline-body">
+          <span class="timeline-status">Education</span>
+          <h4>Tashkent State University of Economics</h4>
+          <p>Pursuing a degree in Information Technology, focusing on Data Analysis and Statistics.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2025</div>
+        <div class="timeline-body">
+          <span class="timeline-status">Building</span>
+          <h4>Telegram Bot Developer</h4>
+          <p>Started developing automated Telegram bots in Python (Testify, Schedule bots) to solve real-world problems.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-body">
+          <span class="timeline-status">Milestone</span>
+          <h4>First Portfolio Website</h4>
+          <p>Designed and deployed my very first professional portfolio website from scratch.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">Start</div>
+        <div class="timeline-body">
+          <span class="timeline-status">Origin</span>
+          <h4>Started Programming</h4>
+          <p>Began my self-study journey diving into coding, algorithms and technology fundamentals.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+  <div class="section-head">
+    <p class="section-eyebrow">— 02 / My Work</p>
+    <h2 class="section-title">Projects</h2>
+  </div>
+
+  <div class="project-list">
+
+    <article class="project-row" data-tilt>
+      <div class="project-visual">
+        <img src="https://qosimovv.uz/projects/testify.jpg" alt="Testify project cover" loading="lazy">
+        <div class="project-visual-grid"></div>
+      </div>
+      <div class="project-info">
+        <div class="project-info-top">
+          <span class="project-status">● Active</span>
+          <span class="project-index">01</span>
+        </div>
+        <h3 class="project-title">Testify</h3>
+        <p class="project-desc">A Telegram bot that automatically creates quiz tests from PDF, DOCX and other file formats, helping users absorb material faster.</p>
+        <ul class="project-tags">
+          <li>Python</li><li>Aiogram 3</li><li>SQLite</li><li>PDF Parsing</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://t.me/TestifyHub_bot" target="_blank">Live Demo ↗</a>
+          <a href="https://github.com/s1qosimovv" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-row" data-tilt>
+      <div class="project-visual">
+        <img src="https://qosimovv.uz/projects/schedule.jpg?v=3" alt="TSUE Schedule bot cover" loading="lazy">
+        <div class="project-visual-grid"></div>
+      </div>
+      <div class="project-info">
+        <div class="project-info-top">
+          <span class="project-status">● Active</span>
+          <span class="project-index">02</span>
+        </div>
+        <h3 class="project-title">TSUE Schedule</h3>
+        <p class="project-desc">A Telegram bot built for TSUE students to view, manage and track daily class schedules automatically, no manual lookup required.</p>
+        <ul class="project-tags">
+          <li>Python</li><li>Telebot</li><li>Data Scraping</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://t.me/DJrasmiy_bot" target="_blank">Live Demo ↗</a>
+          <a href="https://github.com/s1qosimovv" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="github-cta">
+    <div class="github-cta-text">
+      <span class="github-icon">⌥</span>
+      <p>Open source work, commit history and everything in between lives on GitHub.</p>
+    </div>
+    <a href="https://github.com/s1qosimovv" target="_blank" class="btn btn-ghost"><span>View GitHub Profile ↗</span></a>
+  </div>
+</section>
+
+<!-- ===== STACK ===== -->
+<section class="stack" id="stack">
+  <div class="section-head">
+    <p class="section-eyebrow">— 03 / Expertise</p>
+    <h2 class="section-title">Tech Stack</h2>
+  </div>
+
+  <div class="stack-grid">
+    <div class="stack-item">
+      <img src="icons/html5.svg" alt="HTML5">
+      <span>HTML5</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/css3.svg" alt="CSS3">
+      <span>CSS3</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/javascript.svg" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/python.svg" alt="Python">
+      <span>Python</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/git.svg" alt="Git">
+      <span>Git</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/github.svg" alt="GitHub">
+      <span>GitHub</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/sql.svg" alt="SQL">
+      <span>SQL</span>
+    </div>
+    <div class="stack-item">
+      <img src="icons/tailwind.svg" alt="Tailwind CSS">
+      <span>Tailwind CSS</span>
+    </div>
+  </div>
+
+  <div class="learning">
+    <p class="learning-label">Currently Learning</p>
+    <div class="learning-grid">
+      <div class="learning-item">
+        <span class="learning-emoji">🐍</span>
+        <div>
+          <h4>Python Advanced</h4>
+          <span class="learning-status active">Active</span>
+        </div>
+      </div>
+      <div class="learning-item">
+        <span class="learning-emoji">📈</span>
+        <div>
+          <h4>Finance &amp; FinTech</h4>
+          <span class="learning-status active">Active</span>
+        </div>
+      </div>
+      <div class="learning-item">
+        <span class="learning-emoji">🤖</span>
+        <div>
+          <h4>AI Fundamentals</h4>
+          <span class="learning-status active">Active</span>
+        </div>
+      </div>
+      <div class="learning-item">
+        <span class="learning-emoji">🇬🇧</span>
+        <div>
+          <h4>English (IELTS)</h4>
+          <span class="learning-status">In Progress</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATES ===== -->
+<section class="certificates" id="certificates">
+  <div class="section-head">
+    <p class="section-eyebrow">— 04 / Achievements</p>
+    <h2 class="section-title">Certificates</h2>
+  </div>
+
+  <div class="cert-grid">
+    <div class="cert-card">
+      <div class="cert-icon"><img src="https://cdn-icons-png.flaticon.com/512/1046/1046269.png" alt="Mathematics" loading="lazy"></div>
+      <h4>Mathematics</h4>
+      <p>Republic of Uzbekistan — National Subject Proficiency Certificate.</p>
+      <span class="cert-score">Score 51.14 (78.68%) · Grade C+</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon"><img src="https://qosimovv.uz/projects/simplilearn_logo.png" alt="Simplilearn" loading="lazy"></div>
+      <h4>Generative AI for Beginners</h4>
+      <p>Simplilearn SkillUp — fundamentals of generative AI.</p>
+      <span class="cert-score">Completed April 21, 2026</span>
+    </div>
+
+    <div class="cert-card cert-card--pending">
+      <div class="cert-icon cert-icon--text">IELTS</div>
+      <h4>IELTS</h4>
+      <p>International English Language Testing System.</p>
+      <span class="cert-score">Coming soon</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <canvas id="webgl-contact"></canvas>
+  <div class="contact-inner">
+    <p class="section-eyebrow section-eyebrow--light">— 05 / Get in Touch</p>
+    <h2 class="contact-title">Let's connect<span class="contact-dot">.</span></h2>
+    <p class="contact-sub">Interested in data, economics, technology or collaboration? I'm always open to learning, networking and new opportunities.</p>
+
+    <div class="contact-links">
+      <a href="https://t.me/sqosimovv" target="_blank" class="contact-link">
+        <span>Telegram</span><span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://instagram.com/sqosimovv" target="_blank" class="contact-link">
+        <span>Instagram</span><span class="contact-arrow">↗</span>
+      </a>
+      <a href="mailto:s1.qosimovv@gmail.com" class="contact-link">
+        <span>Email</span><span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/sardorbek-qosimov-80b6533b6" target="_blank" class="contact-link">
+        <span>LinkedIn</span><span class="contact-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 Qosimov Sardorbek</p>
+    <p class="footer-quote">We are explorers, not caretakers.</p>
+  </footer>
+</section>
+
+<script src="three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
